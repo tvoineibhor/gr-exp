@@ -17,5 +17,5 @@ jobs:
         - name: Build the hello-docker Docker image
           run: |
             docker build . --tag ghcr.io/tvoineibhor/gr-exp:latest
-            docker run ghcr.io/tvoineibhor/gr-exp:latest
+            docker push ghcr.io/tvoineibhor/gr-exp:latest
             docker push ghcr.io/tvoineibhor/gr-exp:latest
